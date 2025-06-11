@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.ota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#musicPlayer {
+    padding: 20px 20px;
+    margin-top: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 440px;
+}
+
+#musicPlayer h2 {
+    font-size: 34px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#musicPlayer img {
+    border-radius: 8px;
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+#musicPlayer img:active {
+    filter: brightness(1.1);
+    filter: contrast(1.1);
+    transition: 0.2s;
+}
+
+h2:hover {
+    color: #00a88c;
+}
+
+p:hover {
+    color: #00a88c;
+}
+
+#musicSelector {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    transition: 0.2s;
+}
+
+#musicSelector:hover {
+    background-color: #00a88c;
+}
+
+#progress {
+    margin-top: 30px;
+    border: 4px solid #00a88c;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+    width: 100%;
+}
+
+hr:hover {
+    border-color: #ffffff;
+}
+
+.controlButton {
+    width: 70px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.controlButton:hover {
+    background-color: #00a88c;
+    color: rgb(255, 255, 255);
+}
+
+#musicButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
